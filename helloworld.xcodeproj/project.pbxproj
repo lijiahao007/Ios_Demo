@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D315BBE729C0557300BAEEA4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D315BBE629C0557300BAEEA4 /* Player.m */; };
 		D3AA881B29BF3FF000C4E161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA881A29BF3FF000C4E161 /* AppDelegate.m */; };
 		D3AA881E29BF3FF000C4E161 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA881D29BF3FF000C4E161 /* SceneDelegate.m */; };
 		D3AA882129BF3FF000C4E161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA882029BF3FF000C4E161 /* ViewController.m */; };
@@ -17,6 +18,7 @@
 		D3AA883629BF3FF300C4E161 /* helloworldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA883529BF3FF300C4E161 /* helloworldTests.m */; };
 		D3AA884029BF3FF300C4E161 /* helloworldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA883F29BF3FF300C4E161 /* helloworldUITests.m */; };
 		D3AA884229BF3FF300C4E161 /* helloworldUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA884129BF3FF300C4E161 /* helloworldUITestsLaunchTests.m */; };
+		D3E2F94529C2E4100040F7B6 /* Player+PlayerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2F94429C2E4100040F7B6 /* Player+PlayerExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D315BBE529C0557300BAEEA4 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D315BBE629C0557300BAEEA4 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		D37AF6B429C2F267003E9CFB /* SpeakMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeakMethod.h; sourceTree = "<group>"; };
 		D3AA881629BF3FF000C4E161 /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AA881929BF3FF000C4E161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3AA881A29BF3FF000C4E161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,8 @@
 		D3AA883B29BF3FF300C4E161 /* helloworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AA883F29BF3FF300C4E161 /* helloworldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloworldUITests.m; sourceTree = "<group>"; };
 		D3AA884129BF3FF300C4E161 /* helloworldUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloworldUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D3E2F94329C2E4100040F7B6 /* Player+PlayerExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Player+PlayerExtension.h"; sourceTree = "<group>"; };
+		D3E2F94429C2E4100040F7B6 /* Player+PlayerExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Player+PlayerExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D37AF6B529C304BF003E9CFB /* object_c_sty */ = {
+			isa = PBXGroup;
+			children = (
+				D315BBE529C0557300BAEEA4 /* Player.h */,
+				D315BBE629C0557300BAEEA4 /* Player.m */,
+				D3E2F94329C2E4100040F7B6 /* Player+PlayerExtension.h */,
+				D3E2F94429C2E4100040F7B6 /* Player+PlayerExtension.m */,
+				D37AF6B429C2F267003E9CFB /* SpeakMethod.h */,
+			);
+			path = object_c_sty;
+			sourceTree = "<group>";
+		};
 		D3AA880D29BF3FF000C4E161 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +123,7 @@
 		D3AA881829BF3FF000C4E161 /* helloworld */ = {
 			isa = PBXGroup;
 			children = (
+				D37AF6B529C304BF003E9CFB /* object_c_sty */,
 				D3AA881929BF3FF000C4E161 /* AppDelegate.h */,
 				D3AA881A29BF3FF000C4E161 /* AppDelegate.m */,
 				D3AA881C29BF3FF000C4E161 /* SceneDelegate.h */,
@@ -267,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3AA882129BF3FF000C4E161 /* ViewController.m in Sources */,
+				D315BBE729C0557300BAEEA4 /* Player.m in Sources */,
 				D3AA881B29BF3FF000C4E161 /* AppDelegate.m in Sources */,
+				D3E2F94529C2E4100040F7B6 /* Player+PlayerExtension.m in Sources */,
 				D3AA882C29BF3FF200C4E161 /* main.m in Sources */,
 				D3AA881E29BF3FF000C4E161 /* SceneDelegate.m in Sources */,
 			);
@@ -442,6 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFN6MQ6M96;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,6 +472,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +492,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFN6MQ6M96;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = helloworld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -475,6 +500,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,8 +519,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFN6MQ6M96;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloworldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,8 +537,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFN6MQ6M96;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloworldTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,7 +554,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFN6MQ6M96;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloworldUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,7 +571,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFN6MQ6M96;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.helloworldUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
