@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF5730BABCDE7468610153D0 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF573CA52472678EF72886C6 /* Demo1ViewController.m */; };
+		CF57310555E6EBF2999D445C /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF573E61598A0A232D901934 /* MyNavigationController.m */; };
+		CF57329FCA9F180C97EC4EF2 /* MyNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5735874DCB779EF7F707C7 /* MyNavigationDelegate.m */; };
+		CF573A8A7BE4D455F7DA2939 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5739F93A4C192A4635AFB9 /* MyViewController.m */; };
 		D315BBE729C0557300BAEEA4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D315BBE629C0557300BAEEA4 /* Player.m */; };
+		D37AF6B929C41573003E9CFB /* CustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = D37AF6B829C41573003E9CFB /* CustomUIView.m */; };
+		D37AF6C129C45440003E9CFB /* CustomCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D37AF6C029C4543F003E9CFB /* CustomCircleProgress.m */; };
 		D3AA881B29BF3FF000C4E161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA881A29BF3FF000C4E161 /* AppDelegate.m */; };
 		D3AA881E29BF3FF000C4E161 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA881D29BF3FF000C4E161 /* SceneDelegate.m */; };
 		D3AA882129BF3FF000C4E161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3AA882029BF3FF000C4E161 /* ViewController.m */; };
@@ -39,9 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF5732606FF8BBBBC0727A8C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CF5735874DCB779EF7F707C7 /* MyNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationDelegate.m; sourceTree = "<group>"; };
+		CF5735C46035FCF950BEC3EC /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		CF5739F93A4C192A4635AFB9 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CF573B8E0870BA35C098087F /* MyNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationDelegate.h; sourceTree = "<group>"; };
+		CF573CA52472678EF72886C6 /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		CF573E61598A0A232D901934 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		CF573E90C8E75CD2F578A682 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
 		D315BBE529C0557300BAEEA4 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		D315BBE629C0557300BAEEA4 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		D37AF6B429C2F267003E9CFB /* SpeakMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeakMethod.h; sourceTree = "<group>"; };
+		D37AF6B729C41573003E9CFB /* CustomUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomUIView.h; sourceTree = "<group>"; };
+		D37AF6B829C41573003E9CFB /* CustomUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUIView.m; sourceTree = "<group>"; };
+		D37AF6BF29C4543F003E9CFB /* CustomCircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCircleProgress.h; sourceTree = "<group>"; };
+		D37AF6C029C4543F003E9CFB /* CustomCircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCircleProgress.m; sourceTree = "<group>"; };
 		D3AA881629BF3FF000C4E161 /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AA881929BF3FF000C4E161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3AA881A29BF3FF000C4E161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF573DE205A41F5A79D8F683 /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CF5735874DCB779EF7F707C7 /* MyNavigationDelegate.m */,
+				CF573B8E0870BA35C098087F /* MyNavigationDelegate.h */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
 		D37AF6B529C304BF003E9CFB /* object_c_sty */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +125,17 @@
 				D37AF6B429C2F267003E9CFB /* SpeakMethod.h */,
 			);
 			path = object_c_sty;
+			sourceTree = "<group>";
+		};
+		D37AF6B629C4154B003E9CFB /* my_ui_view */ = {
+			isa = PBXGroup;
+			children = (
+				D37AF6B729C41573003E9CFB /* CustomUIView.h */,
+				D37AF6B829C41573003E9CFB /* CustomUIView.m */,
+				D37AF6BF29C4543F003E9CFB /* CustomCircleProgress.h */,
+				D37AF6C029C4543F003E9CFB /* CustomCircleProgress.m */,
+			);
+			path = my_ui_view;
 			sourceTree = "<group>";
 		};
 		D3AA880D29BF3FF000C4E161 = {
@@ -123,6 +161,7 @@
 		D3AA881829BF3FF000C4E161 /* helloworld */ = {
 			isa = PBXGroup;
 			children = (
+				D37AF6B629C4154B003E9CFB /* my_ui_view */,
 				D37AF6B529C304BF003E9CFB /* object_c_sty */,
 				D3AA881929BF3FF000C4E161 /* AppDelegate.h */,
 				D3AA881A29BF3FF000C4E161 /* AppDelegate.m */,
@@ -135,6 +174,13 @@
 				D3AA882729BF3FF200C4E161 /* LaunchScreen.storyboard */,
 				D3AA882A29BF3FF200C4E161 /* Info.plist */,
 				D3AA882B29BF3FF200C4E161 /* main.m */,
+				CF5739F93A4C192A4635AFB9 /* MyViewController.m */,
+				CF5732606FF8BBBBC0727A8C /* MyViewController.h */,
+				CF573CA52472678EF72886C6 /* Demo1ViewController.m */,
+				CF573E90C8E75CD2F578A682 /* Demo1ViewController.h */,
+				CF573DE205A41F5A79D8F683 /* delegate */,
+				CF573E61598A0A232D901934 /* MyNavigationController.m */,
+				CF5735C46035FCF950BEC3EC /* MyNavigationController.h */,
 			);
 			path = helloworld;
 			sourceTree = "<group>";
@@ -289,9 +335,15 @@
 				D3AA882129BF3FF000C4E161 /* ViewController.m in Sources */,
 				D315BBE729C0557300BAEEA4 /* Player.m in Sources */,
 				D3AA881B29BF3FF000C4E161 /* AppDelegate.m in Sources */,
+				D37AF6B929C41573003E9CFB /* CustomUIView.m in Sources */,
 				D3E2F94529C2E4100040F7B6 /* Player+PlayerExtension.m in Sources */,
 				D3AA882C29BF3FF200C4E161 /* main.m in Sources */,
 				D3AA881E29BF3FF000C4E161 /* SceneDelegate.m in Sources */,
+				D37AF6C129C45440003E9CFB /* CustomCircleProgress.m in Sources */,
+				CF573A8A7BE4D455F7DA2939 /* MyViewController.m in Sources */,
+				CF5730BABCDE7468610153D0 /* Demo1ViewController.m in Sources */,
+				CF57329FCA9F180C97EC4EF2 /* MyNavigationDelegate.m in Sources */,
+				CF57310555E6EBF2999D445C /* MyNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

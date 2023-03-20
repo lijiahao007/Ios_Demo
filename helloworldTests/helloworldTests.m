@@ -24,6 +24,17 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
 }
 
+-(void) testString {
+    [self calStringLen:@"你"];
+    [self calStringLen:@"好"];
+    [self calStringLen:@"ni"];
+    [self calStringLen:@"hao"];
+}
+
+-(void) calStringLen: (NSString*) str {
+    NSLog(@"%@ --- %zd", str, str.length);
+}
+
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.

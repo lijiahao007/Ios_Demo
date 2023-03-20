@@ -6,9 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+// 用来管理应用的生命周期的。
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
 
 @end
 

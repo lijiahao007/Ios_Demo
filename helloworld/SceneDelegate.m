@@ -6,19 +6,64 @@
 //
 
 #import "SceneDelegate.h"
+#import "ViewController.h"
+#import "Demo1ViewController.h"
+#import "MyNavigationDelegate.h"
+#import "MyNavigationController.h"
 
+// 这个类是用来管理ViewController的生命周期的
 @interface SceneDelegate ()
 
 @end
 
-@implementation SceneDelegate
+@implementation SceneDelegate {
+}
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+
+    // 可以在该方法中设置rootViewController。（IOS13之后的版本在这里设置）
+//    UITabBarController *tabBar = [[UITabBarController alloc]init];
+//
+//    // 设置ViewController作为根ViewController
+//    ViewController *myView = [[ViewController alloc]init];
+//    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:myView];
+//    navigation.tabBarItem.title = @"导航";
+//
+//    UIViewController *view1 = [[UIViewController alloc]init];
+//    view1.view.backgroundColor = [UIColor redColor];
+//    view1.tabBarItem.title = @"文章";
+//
+//    UIViewController *view2 = [[UIViewController alloc]init];
+//    view2.view.backgroundColor = [UIColor yellowColor];
+//    view2.tabBarItem.title = @"新闻";
+//
+//    UIViewController *view3 = [[UIViewController alloc]init];
+//    view3.view.backgroundColor = [UIColor greenColor];
+//    view3.tabBarItem.title = @"视频";
+//
+//    UIViewController *view4 = [[UIViewController alloc]init];
+//    view4.view.backgroundColor = [UIColor blueColor];
+//    view4.tabBarItem.title = @"我的";
+//
+//    [tabBar setViewControllers:@[navigation,view1,view2,view3,view4] ];
+//    self.window.rootViewController = tabBar;
+
+
+    // 1. 创建UIViewController
+    Demo1ViewController *controller = [[Demo1ViewController alloc] init];
+
+    // 2. 创建UINavigationController， 将上面的controller作为其跟controller
+    MyNavigationController *navigation = [[MyNavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = navigation;
+
+    // 3. 设置代理
+    [self.window makeKeyAndVisible]; // 显示window
 }
+
 
 
 - (void)sceneDidDisconnect:(UIScene *)scene {
