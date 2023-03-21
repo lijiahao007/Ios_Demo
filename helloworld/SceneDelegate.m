@@ -10,6 +10,8 @@
 #import "Demo1ViewController.h"
 #import "MyNavigationDelegate.h"
 #import "MyNavigationController.h"
+#import "CollectionDemoController.h"
+#import "TableDemoController.h"
 
 // 这个类是用来管理ViewController的生命周期的
 @interface SceneDelegate ()
@@ -25,6 +27,7 @@
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
+    // ==========  底部导航栏demo ==========
     // 可以在该方法中设置rootViewController。（IOS13之后的版本在这里设置）
 //    UITabBarController *tabBar = [[UITabBarController alloc]init];
 //
@@ -52,18 +55,29 @@
 //    [tabBar setViewControllers:@[navigation,view1,view2,view3,view4] ];
 //    self.window.rootViewController = tabBar;
 
+// ============= 控制器跳转demo =============
+//    // 1. 创建UIViewController
+//    Demo1ViewController *controller = [[Demo1ViewController alloc] init];
+//
+//    // 2. 创建UINavigationController， 将上面的controller作为其跟controller
+//    MyNavigationController *navigation = [[MyNavigationController alloc] initWithRootViewController:controller];
+//    self.window.rootViewController = navigation;
+//
+//    // 3. 设置代理
+//    [self.window makeKeyAndVisible]; // 显示window
 
-    // 1. 创建UIViewController
-    Demo1ViewController *controller = [[Demo1ViewController alloc] init];
 
-    // 2. 创建UINavigationController， 将上面的controller作为其跟controller
-    MyNavigationController *navigation = [[MyNavigationController alloc] initWithRootViewController:controller];
-    self.window.rootViewController = navigation;
+// ============= ScrollView Demo ==============
+//    CollectionDemoController *collectionDemoController = [[CollectionDemoController alloc] init];
+//    self.window.rootViewController = collectionDemoController;
+//    [self.window makeKeyAndVisible];
 
-    // 3. 设置代理
-    [self.window makeKeyAndVisible]; // 显示window
+
+// ============== TableView Demo ============
+    TableDemoController *viewController = [[TableDemoController alloc] init];
+    self.window.rootViewController = viewController;
+    [self.window makeKeyAndVisible];
 }
-
 
 
 - (void)sceneDidDisconnect:(UIScene *)scene {

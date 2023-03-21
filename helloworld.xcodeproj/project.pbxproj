@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		CF5730BABCDE7468610153D0 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF573CA52472678EF72886C6 /* Demo1ViewController.m */; };
 		CF57310555E6EBF2999D445C /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF573E61598A0A232D901934 /* MyNavigationController.m */; };
+		CF573121957CF2A79C1A2F1A /* TableDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF57362A574DA04B05019125 /* TableDemoController.m */; };
 		CF57329FCA9F180C97EC4EF2 /* MyNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5735874DCB779EF7F707C7 /* MyNavigationDelegate.m */; };
+		CF5739FC11FA7DDF5BA082C4 /* CollectionDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF57339BD5BFB5F9181B8D7A /* CollectionDemoController.m */; };
 		CF573A8A7BE4D455F7DA2939 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5739F93A4C192A4635AFB9 /* MyViewController.m */; };
 		D315BBE729C0557300BAEEA4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D315BBE629C0557300BAEEA4 /* Player.m */; };
 		D37AF6B929C41573003E9CFB /* CustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = D37AF6B829C41573003E9CFB /* CustomUIView.m */; };
@@ -46,10 +48,14 @@
 
 /* Begin PBXFileReference section */
 		CF5732606FF8BBBBC0727A8C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CF57339BD5BFB5F9181B8D7A /* CollectionDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionDemoController.m; sourceTree = "<group>"; };
+		CF573534DEDF50B8ADF70332 /* TableDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDemoController.h; sourceTree = "<group>"; };
 		CF5735874DCB779EF7F707C7 /* MyNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationDelegate.m; sourceTree = "<group>"; };
 		CF5735C46035FCF950BEC3EC /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		CF57362A574DA04B05019125 /* TableDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDemoController.m; sourceTree = "<group>"; };
 		CF5739F93A4C192A4635AFB9 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		CF573B8E0870BA35C098087F /* MyNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationDelegate.h; sourceTree = "<group>"; };
+		CF573C19CEAD3BFE0F2CEE10 /* CollectionDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionDemoController.h; sourceTree = "<group>"; };
 		CF573CA52472678EF72886C6 /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
 		CF573E61598A0A232D901934 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 		CF573E90C8E75CD2F578A682 /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
@@ -181,6 +187,10 @@
 				CF573DE205A41F5A79D8F683 /* delegate */,
 				CF573E61598A0A232D901934 /* MyNavigationController.m */,
 				CF5735C46035FCF950BEC3EC /* MyNavigationController.h */,
+				CF57339BD5BFB5F9181B8D7A /* CollectionDemoController.m */,
+				CF573C19CEAD3BFE0F2CEE10 /* CollectionDemoController.h */,
+				CF57362A574DA04B05019125 /* TableDemoController.m */,
+				CF573534DEDF50B8ADF70332 /* TableDemoController.h */,
 			);
 			path = helloworld;
 			sourceTree = "<group>";
@@ -344,6 +354,8 @@
 				CF5730BABCDE7468610153D0 /* Demo1ViewController.m in Sources */,
 				CF57329FCA9F180C97EC4EF2 /* MyNavigationDelegate.m in Sources */,
 				CF57310555E6EBF2999D445C /* MyNavigationController.m in Sources */,
+				CF5739FC11FA7DDF5BA082C4 /* CollectionDemoController.m in Sources */,
+				CF573121957CF2A79C1A2F1A /* TableDemoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
