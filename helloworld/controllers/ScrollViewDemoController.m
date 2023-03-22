@@ -2,10 +2,10 @@
 // Created by VINSON on 2023/3/21.
 //
 
-#import "CollectionDemoController.h"
+#import "ScrollViewDemoController.h"
 
 
-@implementation CollectionDemoController {
+@implementation ScrollViewDemoController {
     UIScrollView *_myScrollView;
     UIImageView *_imageView;
 }

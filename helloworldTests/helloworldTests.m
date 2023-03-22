@@ -18,10 +18,12 @@
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    // 翻译：在每个测试方法调用前调用。
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
+    // 翻译：在每个测试方法调用后调用。
 }
 
 -(void) testString {

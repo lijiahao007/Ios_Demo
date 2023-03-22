@@ -6,7 +6,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface CollectionDemoController : UIViewController <UIScrollViewDelegate>
+@interface ScrollViewDemoController : UIViewController <UIScrollViewDelegate>
 
 
 @end

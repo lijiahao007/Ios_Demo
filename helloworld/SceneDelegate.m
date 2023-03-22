@@ -6,12 +6,14 @@
 //
 
 #import "SceneDelegate.h"
-#import "ViewController.h"
-#import "Demo1ViewController.h"
+#import "controllers/ViewController.h"
+#import "controllers/Demo1ViewController.h"
 #import "MyNavigationDelegate.h"
-#import "MyNavigationController.h"
-#import "CollectionDemoController.h"
-#import "TableDemoController.h"
+#import "controllers/MyNavigationController.h"
+#import "controllers/ScrollViewDemoController.h"
+#import "controllers/TableDemoController.h"
+#import "controllers/CustomViewController.h"
+#import "controllers/CollectionViewController.h"
 
 // 这个类是用来管理ViewController的生命周期的
 @interface SceneDelegate ()
@@ -68,13 +70,21 @@
 
 
 // ============= ScrollView Demo ==============
-//    CollectionDemoController *collectionDemoController = [[CollectionDemoController alloc] init];
+//    ScrollViewDemoController *collectionDemoController = [[ScrollViewDemoController alloc] init];
 //    self.window.rootViewController = collectionDemoController;
 //    [self.window makeKeyAndVisible];
 
 
 // ============== TableView Demo ============
-    TableDemoController *viewController = [[TableDemoController alloc] init];
+//    TableDemoController *viewController = [[TableDemoController alloc] init];
+//    self.window.rootViewController = viewController;
+//    [self.window makeKeyAndVisible];
+
+//    CustomViewController *viewController = [[CustomViewController alloc] init];
+//    self.window.rootViewController = viewController;
+//    [self.window makeKeyAndVisible];
+
+    CollectionViewController* viewController = [[CollectionViewController alloc] init];
     self.window.rootViewController = viewController;
     [self.window makeKeyAndVisible];
 }
