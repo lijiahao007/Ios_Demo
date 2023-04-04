@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import "controllers/MyViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +16,10 @@
 
 		
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for customization after application launch...    [DDLog addLogger:[DDOSLogger sharedInstance]]; //os_log
+    DDFileLogger *fileLogger = [[DDFileLogger alloc] init]; // File Logger
+    fileLogger.rollingFrequency = 60 * 60 ; // 1 hour rolling
+    [DDLog addLogger:fileLogger];
     return YES;
 }
 

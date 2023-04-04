@@ -14,6 +14,7 @@
 #import "controllers/TableDemoController.h"
 #import "controllers/CustomViewController.h"
 #import "controllers/CollectionViewController.h"
+#import "customView/MyCustomViewController.h"
 
 // 这个类是用来管理ViewController的生命周期的
 @interface SceneDelegate ()
@@ -84,9 +85,15 @@
 //    self.window.rootViewController = viewController;
 //    [self.window makeKeyAndVisible];
 
-    CollectionViewController* viewController = [[CollectionViewController alloc] init];
-    self.window.rootViewController = viewController;
-    [self.window makeKeyAndVisible];
+    //============ CollectionView Demo ============
+//    CollectionViewController* viewController = [[CollectionViewController alloc] init];
+//    self.window.rootViewController = viewController;
+//    [self.window makeKeyAndVisible];
+//
+    //============= CustomView Demo =========
+    MyCustomViewController* customViewController = [[MyCustomViewController alloc] init];
+    self.window.rootViewController = customViewController;
+    [self.window makeKeyWindow];
 }
 
 

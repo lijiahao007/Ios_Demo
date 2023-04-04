@@ -14,20 +14,6 @@
 			<key>isShown</key>
 			<false />
 			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>-[MultiThreadTest testAsyncTaskAndSerialQueue].xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false />
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>-[MultiThreadTest testThreadGroup].xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false />
-			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
 		<key>-[MultiThreadTest testNSOperation].xcscheme</key>
@@ -50,6 +36,20 @@
 			<false />
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>-[NetworkTest testURLConnection1].xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>-[NetworkTest testURLSession].xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 	</dict>
 </dict>

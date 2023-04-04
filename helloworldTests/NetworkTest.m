@@ -22,7 +22,7 @@
 }
 
 // api : https://api.thecatapi.com/v1/images/search?limit=1
-// NSURLConnection // 出错
+// NSURLConnection
 - (void)testNSURLConnection {
     NSURL *url = [NSURL URLWithString:@"https://api.thecatapi.com/v1/images/search?limit=1"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
@@ -33,14 +33,33 @@
     NSLog(@"str: %@", str);
 }
 
-// ===== NSURLConnection异步请求 begin =====
-- (void)testNSURLConnection1 {
+// ===== NSURLConnection异步请求1 begin =====
+
+- (void)testURLConnection1 {
     _expectation = [self expectationWithDescription:@"testNSURLConnection1"];
+    NSURL *url = [NSURL URLWithString:@"https://api.thecatapi.com/v1/images/search?limit=1"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    [NSURLConnection sendAsynchronousRequest:request queue:queue completionHandler:^(NSURLResponse *_Nullable response, NSData *_Nullable data, NSError *_Nullable connectionError) {
+        NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        NSLog(@"str: %@", str);
+        [_expectation fulfill];
+    }];
+    [self waitForExpectationsWithTimeout:10 handler:^(NSError *_Nullable error) {
+        NSLog(@"已完成: %@", error);
+    }];
+}
+
+// ===== NSURLConnection异步请求1 end =====
+
+// ===== NSURLConnection异步请求2 begin =====
+- (void)testNSURLConnection2 {
+    _expectation = [self expectationWithDescription:@"testNSURLConnection2"];
     NSURL *url = [NSURL URLWithString:@"https://api.thecatapi.com/v1/images/search?limit=1"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
     [connection start];
-    [self waitForExpectationsWithTimeout:10 handler:^(NSError * _Nullable error) {
+    [self waitForExpectationsWithTimeout:10 handler:^(NSError *_Nullable error) {
         NSLog(@"error: %@", error);
     }];
 }
@@ -62,6 +81,33 @@
 }
 
 // ===== NSURLConnection 异步请求 end =======
+
+// ===== NSURLSession 异步请求 begin =====
+
+- (void)testURLSession {
+    _expectation = [self expectationWithDescription:@"testURLSession"];
+    NSURLSession *session = [NSURLSession sharedSession];
+    [[session dataTaskWithURL:[NSURL URLWithString:@"https://api.thecatapi.com/v1/images/search?limit=1"]
+            completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+                NSString *str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+                NSLog(@"str: %@", str);
+                [self->_expectation fulfill];
+            }] resume];
+
+    [self waitForExpectationsWithTimeout:10 handler:^(NSError *_Nullable error) {
+        NSLog(@"testURLSession 已完成: %@", error);
+    }];
+}
+
+// ===== NSURLSession 异步请求 end =====
+
+
+// ===== 测试指定网络请求的DNS服务器 ====
+
+-(void)testDns {
+        
+}
+
 
 
 - (void)testPerformanceExample {

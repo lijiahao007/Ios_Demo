@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3df921e9-dbad-455d-8af7-757ab3255753" name="Changes" comment="UITableView、UICollectionView、网络请求相关demo">
+      <change beforePath="$PROJECT_DIR$/helloworld.xcodeproj/xcuserdata/vinson.xcuserdatad/xcschemes/-[MultiThreadTest testAsyncTaskAndSerialQueue].xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.xcodeproj/xcuserdata/vinson.xcuserdatad/xcschemes/-[NetworkTest testURLConnection1].xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld.xcodeproj/xcuserdata/vinson.xcuserdatad/xcschemes/-[MultiThreadTest testThreadGroup].xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.xcodeproj/xcuserdata/vinson.xcuserdatad/xcschemes/-[NetworkTest testURLSession].xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld.xcodeproj/xcuserdata/vinson.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.xcodeproj/xcuserdata/vinson.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworldTests/NetworkTest.m" beforeDir="false" afterPath="$PROJECT_DIR$/helloworldTests/NetworkTest.m" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_6e401c9ea08d357d82c34a2bde68412c94b3baeb" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="AppCode" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectId" id="2N8QbxdMyODL4XDESTkNGXs32Zp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OBJC.PRESERVED_TARGET_SELECTION&quot;: &quot;helloworld&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vinson/Desktop/workspaces/helloworld/helloworld&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="XCTest.-[NetworkTest testURLSession]">
+    <configuration name="helloworld" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworld" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="true" SCHEME_NAME="helloworld" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="helloworld" RUN_TARGET_NAME="helloworld" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-[MultiThreadTest testNSOperation]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworldTests" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="true" SCHEME_NAME="-[MultiThreadTest testNSOperation]" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" TEST_CLASS="MultiThreadTest" TEST_METHOD="testNSOperation" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-[NetworkTest testNSURLConnection1]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworldTests" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="true" SCHEME_NAME="-[NetworkTest testNSURLConnection1]" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" TEST_CLASS="NetworkTest" TEST_METHOD="testNSURLConnection1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-[NetworkTest testNSURLConnection]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworldTests" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="true" SCHEME_NAME="-[NetworkTest testNSURLConnection]" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" TEST_CLASS="NetworkTest" TEST_METHOD="testNSURLConnection" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-[NetworkTest testURLConnection1]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworldTests" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="true" SCHEME_NAME="-[NetworkTest testURLConnection1]" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" TEST_CLASS="NetworkTest" TEST_METHOD="testURLConnection1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="-[NetworkTest testURLSession]" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="helloworld" TARGET_NAME="helloworldTests" CONFIG_NAME="Debug" IS_LOCATION_SIMULATION_SUPPORTED="true" SCHEME_NAME="-[NetworkTest testURLSession]" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" TEST_CLASS="NetworkTest" TEST_METHOD="testURLSession" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.helloworld" />
+      <item itemvalue="XCTest.-[MultiThreadTest testNSOperation]" />
+      <item itemvalue="XCTest.-[NetworkTest testNSURLConnection1]" />
+      <item itemvalue="XCTest.-[NetworkTest testNSURLConnection]" />
+      <item itemvalue="XCTest.-[NetworkTest testURLConnection1]" />
+      <item itemvalue="XCTest.-[NetworkTest testURLSession]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="XCTest.-[NetworkTest testURLSession]" />
+        <item itemvalue="XCTest.-[NetworkTest testURLConnection1]" />
+        <item itemvalue="XCTest.-[NetworkTest testNSURLConnection]" />
+        <item itemvalue="XCTest.-[NetworkTest testNSURLConnection1]" />
+        <item itemvalue="XCTest.-[MultiThreadTest testNSOperation]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3df921e9-dbad-455d-8af7-757ab3255753" name="Changes" comment="" />
+      <created>1679043308344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679043308344</updated>
+      <workItem from="1679043311344" duration="226000" />
+      <workItem from="1679044723835" duration="80000" />
+      <workItem from="1679044917844" duration="103000" />
+      <workItem from="1679045335066" duration="14000" />
+      <workItem from="1679045809978" duration="159000" />
+      <workItem from="1679046010152" duration="13000" />
+      <workItem from="1679046426484" duration="280000" />
+      <workItem from="1679046755845" duration="1713000" />
+      <workItem from="1679104120701" duration="7852000" />
+      <workItem from="1679118822983" duration="11620000" />
+      <workItem from="1679274350322" duration="27529000" />
+      <workItem from="1679318984915" duration="81000" />
+      <workItem from="1679360690863" duration="32638000" />
+      <workItem from="1679447651400" duration="5815000" />
+    </task>
+    <task id="LOCAL-00001" summary="1. 第九章《控制器》相关实践">
+      <created>1679319063323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679319063323</updated>
+    </task>
+    <task id="LOCAL-00002" summary="《UIScrollView相关操作》">
+      <created>1679367541729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679367541729</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UITableView、UICollectionView、网络请求相关demo">
+      <created>1679453153180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679453153180</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. 第九章《控制器》相关实践" />
+    <MESSAGE value="《UIScrollView相关操作》" />
+    <MESSAGE value="UITableView、UICollectionView、网络请求相关demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="UITableView、UICollectionView、网络请求相关demo" />
+  </component>
+</project>
